@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trade4Profit (T4P) — Web3 Meme Coin Trading Hub</title>
+  <meta name="description" content="T4P is a Web3 hub for discovering, analyzing, and trading meme coins — with launch tracker, smart search, watchlists, alerts, and community sentiment." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/t4p-logo.png">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+
+  <header class="nav">
+    <div class="left">
+      <img src="assets/t4p-logo.png" alt="T4P Logo" class="logo" />
+      <span class="brand">Trade4Profit</span>
+    </div>
+    <nav class="right">
+      <a href="#mission">Mission</a>
+      <a href="#features">Features</a>
+      <a href="#utility">Utility</a>
+      <a href="#use-cases">Use Cases</a>
+      <a class="btn btn-primary" id="buyBtn" href="https://x.com/i/communities/1972218525554180175" target="_blank" rel="noopener">Buy T4P</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <img src="assets/t4p-logo.png" alt="T4P Logo" class="mark-center" />
+    <div class="badge">Contract Address: <strong id="contract">Will Update Soon</strong></div>
+
+    <h1><span class="accent">Trade4Profit (T4P)</span> — Web3 Meme Coin Trading Hub</h1>
+    <p class="sub">
+      An ecosystem that bridges meme coin energy with a professional, fun, and transparent trading experience.
+    </p>
+    <div class="cta">
+      <a class="btn glow" id="watchBtn" href="https://x.com/i/communities/1972218525554180175" target="_blank" rel="noopener">Watch Live</a>
+      <a class="btn" id="communityBtn" href="https://x.com/i/communities/1972218525554180175" target="_blank" rel="noopener">Join Community</a>
+      <a class="btn outline" href="#features">Explore Features</a>
+    </div>
+  </main>
+
+  <section id="mission" class="panel">
+    <h2>Purpose: Mission & Vision</h2>
+    <div class="grid-2">
+      <div>
+        <h3>Mission</h3>
+        <p>Provide easy, safe, and transparent access for every meme coin trader to discover, analyze, and trade new tokens quickly.</p>
+      </div>
+      <div>
+        <h3>Vision</h3>
+        <p>Become the go-to hub for meme coin trading — a place to buy, build, discuss, and learn strategies together.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="panel cards">
+    <h2>Key Features</h2>
+    <div class="cards-grid">
+      <article class="card">
+        <h3>24H Launch Tracker</h3>
+        <p>Newly launched Solana coins in the last 24 hours with filters for volume, holders, and social trend.</p>
+      </article>
+      <article class="card">
+        <h3>Smart Search</h3>
+        <p>Enter any mint/contract address to see supply, liquidity, live chart, holders, and DEX info.</p>
+      </article>
+      <article class="card">
+        <h3>T4P Dashboard</h3>
+        <p>Simple & powerful view for trending meme coins. Create watchlists and get price alerts.</p>
+      </article>
+      <article class="card">
+        <h3>Community Signals</h3>
+        <p>Telegram/X integration with sentiment analysis and a community hype score.</p>
+      </article>
+      <article class="card">
+        <h3>Education + Gamification</h3>
+        <p>Quick guides for beginners and rewards for top traders & loyal holders.</p>
+      </article>
+      <article class="card">
+        <h3>Built for Creators</h3>
+        <p>Early exposure for new token launches — reach active, ready-to-trade communities.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="utility" class="panel">
+    <h2>T4P Token Utility</h2>
+    <ul class="features">
+      <li>🔔 Early alerts & advanced analytics (holders, volume spikes, whale moves)</li>
+      <li>🛡️ Simple staking to strengthen the ecosystem</li>
+      <li>🎟️ Access to premium rooms & creator tools</li>
+    </ul>
+    <div class="cta center">
+      <a class="btn btn-primary" id="buyBtn2" href="https://x.com/i/communities/1972218525554180175" target="_blank" rel="noopener">Get T4P</a>
+    </div>
+  </section>
+
+  <section id="use-cases" class="panel">
+    <h2>Use Cases</h2>
+    <div class="grid-3">
+      <div class="use">
+        <h3>For Traders</h3>
+        <p>Discover, research, and trade new meme coins in one place.</p>
+      </div>
+      <div class="use">
+        <h3>For Community</h3>
+        <p>Discuss, vote, and grow together with shared signals and sentiment.</p>
+      </div>
+      <div class="use">
+        <h3>For Creators</h3>
+        <p>Launch visibility to an active audience — build liquidity and awareness early.</p>
+      </div>
+      <div class="use">
+        <h3>For Beginners</h3>
+        <p>Learn basics fast with safe flows and clear guidance.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Trade4Profit (T4P). Built with precision and vibes.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
